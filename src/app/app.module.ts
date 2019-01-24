@@ -1,3 +1,6 @@
+import {AngularFireAuthModule} from '@angular/fire/auth';
+import {AngularFireDatabaseModule} from '@angular/fire/database-deprecated';
+import {AngularFireModule} from '@angular/fire';
 import {Firebase} from '@ionic-native/firebase';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -8,10 +11,6 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'; 
-
-import { AngularFireModule } from 'angularfire2';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AuthProvider } from '../providers/auth/auth';
 
 export const firebaseConfig = {
