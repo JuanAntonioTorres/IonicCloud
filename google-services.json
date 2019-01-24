@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "311878782971",
+    "firebase_url": "https://cloudtest-5b4ed.firebaseio.com",
+    "project_id": "cloudtest-5b4ed",
+    "storage_bucket": "cloudtest-5b4ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311878782971:android:1d6016f37d1b9e58",
+        "android_client_info": {
+          "package_name": "io.ionic.cloudTest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311878782971-9odmt4mph773vf3apl50erqqr5ou3jo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjT3ZECO4A2rrU9kFuY3j3KZxCYk5nWMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
